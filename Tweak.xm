@@ -2,7 +2,7 @@
 #import <substrate.h>
 #import <UIKit/UIView.h>
 
-@interface SpringBoard (iOS4)
+@interface SpringBoard (iOS8)
 - (SBDisplay *)_accessibilityTopDisplay;
 @end
 
@@ -10,7 +10,7 @@
 - (NSArray *)icons;
 @end
 
-@interface SBIconController (iOS4)
+@interface SBIconController (iOS8)
 - (SBIconListView *)currentRootIconList;
 - (id)dock;
 @end
@@ -18,7 +18,7 @@
 @interface SBDockIconListView : SBIconListView
 @end
 
-@interface SBIcon (iOS4)
+@interface SBIcon (iOS8)
 - (BOOL)isGrabbed;
 - (UIImageView *)iconImageView;
 @end
